@@ -1,0 +1,17 @@
+{
+  "image": "bunkeriot/bunkerm",
+  "name": "BunkerM Addon",
+  "version": "1.6.1-rc3",
+  "slug": "bunkeriot-BunkerM",
+  "description": "BunkerWeb is a next-generation and open-source Web Application Firewall (WAF)..",
+  "arch": ["armv7", "aarch64", "amd64"],
+  "url": "https://github.com/bunkeriot/BunkerM",
+  "ingress_port" : 2000,
+  "panel_icon" : "mdi:network-pos",
+  "panel_title" : "BunkerM",
+ "ingress": true,
+  "environment" : {
+    "BUNKER_DATA": "/data", 
+    "BUNKER_MQTT_DATA": "/var/lib/mosquitto"
+  }
+}
